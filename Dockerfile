@@ -21,4 +21,4 @@ ENV PATH="${TOOLCHAIN_FOLDER}/${GCC_FOLDERNAME}/bin:${PATH}"
 
 COPY assets/toolchain.cmake ${TOOLCHAIN_FOLDER}/toolchain.cmake
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash", "-l", "-c"]
