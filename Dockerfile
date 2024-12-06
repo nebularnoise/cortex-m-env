@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.10
 
 # Install utilities
 RUN apt-get update && apt-get install -y software-properties-common bash wget make cmake xz-utils curl ninja-build git
